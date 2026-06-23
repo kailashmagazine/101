@@ -1,57 +1,27 @@
 {
-  "name": "101 Tarjetas de Meditacion",
+  "id": "/app/",
+  "name": "101 Tarjetas de Meditación",
   "short_name": "101 Tarjetas",
-  "description": "101 tarjetas para meditar: una practica contemplativa diaria.",
+  "description": "101 tarjetas de meditación y autoobservación. Escuela Kailash · Altaïr.",
   "lang": "es",
   "dir": "ltr",
   "start_url": "/app/",
   "scope": "/app/",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#1b2128",
-  "theme_color": "#1b2128",
+  "background_color": "#f3e6cf",
+  "theme_color": "#f3e3c6",
+  "categories": ["lifestyle", "health", "education"],
   "icons": [
-    {
-      "src": "icon-192.png",
-      "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-maskable-512.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
   ],
-  "id": "/app/",
-  "prefer_related_applications": false,
-  "related_applications": [],
   "screenshots": [
-    {
-      "src": "screenshot-mobile.png",
-      "sizes": "1080x1920",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "101 Tarjetas de Meditacion"
-    },
-    {
-      "src": "screenshot-wide.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "101 Tarjetas en vista amplia"
-    }
-  ],
-  "categories": [
-    "lifestyle",
-    "health",
-    "education"
+    { "src": "screenshot-mobile.png", "sizes": "1080x1920", "type": "image/png", "form_factor": "narrow", "label": "Saca una tarjeta cada día" },
+    { "src": "screenshot-mobile-01.png", "sizes": "720x1400", "type": "image/png", "form_factor": "narrow", "label": "Tarjetas y ejercicios de meditación" },
+    { "src": "screenshot-mobile-02.png", "sizes": "720x1400", "type": "image/png", "form_factor": "narrow", "label": "Escuela de crecimiento personal" },
+    { "src": "screenshot-mobile-03.png", "sizes": "720x1400", "type": "image/png", "form_factor": "narrow", "label": "Enseñanzas de meditación" },
+    { "src": "screenshot-wide.png", "sizes": "1280x800", "type": "image/png", "form_factor": "wide", "label": "101 Tarjetas para habitar el presente" }
   ]
 }
